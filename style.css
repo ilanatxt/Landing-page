@@ -1,0 +1,29 @@
+body {
+    font-family: "Roboto";
+}
+
+.hero,
+.footer {
+    background-color: #1f2937;
+}
+
+h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+a {
+    font-size: 18px;
+    color:#f9faf8;
+}
+
+.class {
+    font-size: 18px;
+    color:#f9faf8;
+}
+
+.header {
+    font-size: 24px;
+    color: #f9faf8;
+}
