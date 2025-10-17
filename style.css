@@ -72,7 +72,7 @@ a {
 
 .bunny {
     border-radius: 34px;
-    border: 6px solid #3882f6;
+    border: 8px solid #3882f6;
     margin-top: 14px;
 }
 
@@ -86,22 +86,108 @@ a {
 }
 
 .second-logo {
+    display: flex;
+    justify-content: center;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
-    
+    margin: 48px;
 }
 
 .container {
     display: flex;
-    justify-content:space-between;
-    align-items: center;
-   
+    justify-content: center;
+    gap: 40px;
+    margin: 24px;
 }
 
-.second-header {
+.content {
     text-align: center;
+    font-size: 14px;
+    width: 300px;
 }
+
+.card {
+    height: 300px;
+    width: 220px;
+    border: 8px solid #3882f6;
+    border-radius: 20px;
+    margin-bottom: 24px;
+}
+
+.third-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    margin-top: 80px;
+    padding: 50px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+    width: 600px;
+    height: 400;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 24px;
+}
+
+.fourth-header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin: 64px 264px;
+    padding: 48px;
+}
+
+ .join {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+ }
+
+ .news {
+    color: #f9faf8;
+    font-size: 18px;
+ }
+
+.another-button {
+    border: 4px solid #f9faf8;
+    background-color: #3882f6;
+    padding: 7px 30px;
+    font-size: 18px;
+    color: #f9faf8;
+    border-radius: 7px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    padding: 28px;
+}
+
+
+
+
+
+
 
 
 
